@@ -1,7 +1,33 @@
 
-body,h6,h3,h2 {
+body,h6,h3,h2,h4,h5 {
       margin: 0;
     font-family: 'Reggae One', cursive;
+}
+
+.bg_img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#home{
+    height:100%;
+}
+
+#description{
+    height:100%;
+}
+
+#gallery{
+    height:100%;
+}
+
+#contact{
+    height:100%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
