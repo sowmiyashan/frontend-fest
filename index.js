@@ -6,3 +6,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+const change = src => { 
+    document.getElementById('main').src = src 
+} 
