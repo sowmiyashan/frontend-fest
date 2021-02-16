@@ -41,7 +41,7 @@ body,h6,h3,h2,h4,h5 {
 .home{
     position: relative;top: 30vh;left: -10vh;
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
     .home{
         position: relative;
         top: 0vh;
