@@ -4,11 +4,83 @@ body,h6,h3,h2,h4,h5 {
     font-family: 'Reggae One', cursive;
 }
 
-.bg_img{
+.bg_img-h{
     position: absolute;
     height: 100%;
     width: 100%;
 }
+
+.bg_img-f{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.bg_img-d{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.bg_img-g{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.bg_img-e{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid{
+    padding-bottom: 35px;
+}
+
+.home{
+    position: relative;top: 30vh;left: -10vh;
+}
+@media screen and (max-width: 470px) {
+    .home{
+        position: relative;
+        top: 0vh;
+        left: 0vh;
+    }
+
+
+
+    .bg_img-h{
+        position: absolute;
+        height: 150%;
+        width: 100%;
+    }
+    
+    .bg_img-f{
+        position: absolute;
+        height: 250%;
+        width: 100%;
+    }
+    
+    .bg_img-d{
+        position: absolute;
+        height: 170%;
+        width: 100%;
+    }
+    
+    .bg_img-g{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .bg_img-e{
+        position: absolute;
+        height: 135%;
+        width: 100%;
+    }
+    
+  }
 
 #home{
     height:100%;
@@ -59,10 +131,6 @@ body,h6,h3,h2,h4,h5 {
 
 }
 
-.col-md-6 {
-    flex: 0 0 auto;
-    width: 50%;
-}
 
 .animate-top {
     position: relative;
@@ -84,10 +152,7 @@ body,h6,h3,h2,h4,h5 {
     animation: animatebottom 0.8s;
 }
 
-.container-fluid{
-    padding-bottom: 35px;
-    border-bottom: #333 dashed;
-}
+
 
 .animate-zoom {
     animation: animatezoom 0.8s;
